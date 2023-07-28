@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56083E942A73A9F400904A19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083E932A73A9F400904A19 /* AppDelegate.swift */; };
+		56083E962A73A9F400904A19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083E952A73A9F400904A19 /* SceneDelegate.swift */; };
+		56083E982A73A9F400904A19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083E972A73A9F400904A19 /* ViewController.swift */; };
+		56083E9B2A73A9F400904A19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56083E992A73A9F400904A19 /* Main.storyboard */; };
+		56083E9D2A73A9F500904A19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56083E9C2A73A9F500904A19 /* Assets.xcassets */; };
+		56083EA02A73A9F500904A19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56083E9E2A73A9F500904A19 /* LaunchScreen.storyboard */; };
+		56083EAB2A73A9F500904A19 /* NaverWebtoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083EAA2A73A9F500904A19 /* NaverWebtoonTests.swift */; };
+		56083EB52A73A9F500904A19 /* NaverWebtoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083EB42A73A9F500904A19 /* NaverWebtoonUITests.swift */; };
+		56083EB72A73A9F500904A19 /* NaverWebtoonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083EB62A73A9F500904A19 /* NaverWebtoonUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56083EA72A73A9F500904A19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56083E882A73A9F400904A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56083E8F2A73A9F400904A19;
+			remoteInfo = NaverWebtoon;
+		};
+		56083EB12A73A9F500904A19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56083E882A73A9F400904A19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56083E8F2A73A9F400904A19;
+			remoteInfo = NaverWebtoon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56083E902A73A9F400904A19 /* NaverWebtoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaverWebtoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56083E932A73A9F400904A19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56083E952A73A9F400904A19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		56083E972A73A9F400904A19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56083E9A2A73A9F400904A19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56083E9C2A73A9F500904A19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56083E9F2A73A9F500904A19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56083EA12A73A9F500904A19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56083EA62A73A9F500904A19 /* NaverWebtoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaverWebtoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56083EAA2A73A9F500904A19 /* NaverWebtoonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverWebtoonTests.swift; sourceTree = "<group>"; };
+		56083EB02A73A9F500904A19 /* NaverWebtoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaverWebtoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56083EB42A73A9F500904A19 /* NaverWebtoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverWebtoonUITests.swift; sourceTree = "<group>"; };
+		56083EB62A73A9F500904A19 /* NaverWebtoonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverWebtoonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56083E8D2A73A9F400904A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56083EA32A73A9F500904A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56083EAD2A73A9F500904A19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56083E872A73A9F400904A19 = {
+			isa = PBXGroup;
+			children = (
+				56083E922A73A9F400904A19 /* NaverWebtoon */,
+				56083EA92A73A9F500904A19 /* NaverWebtoonTests */,
+				56083EB32A73A9F500904A19 /* NaverWebtoonUITests */,
+				56083E912A73A9F400904A19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56083E912A73A9F400904A19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56083E902A73A9F400904A19 /* NaverWebtoon.app */,
+				56083EA62A73A9F500904A19 /* NaverWebtoonTests.xctest */,
+				56083EB02A73A9F500904A19 /* NaverWebtoonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56083E922A73A9F400904A19 /* NaverWebtoon */ = {
+			isa = PBXGroup;
+			children = (
+				56083E932A73A9F400904A19 /* AppDelegate.swift */,
+				56083E952A73A9F400904A19 /* SceneDelegate.swift */,
+				56083E972A73A9F400904A19 /* ViewController.swift */,
+				56083E992A73A9F400904A19 /* Main.storyboard */,
+				56083E9C2A73A9F500904A19 /* Assets.xcassets */,
+				56083E9E2A73A9F500904A19 /* LaunchScreen.storyboard */,
+				56083EA12A73A9F500904A19 /* Info.plist */,
+			);
+			path = NaverWebtoon;
+			sourceTree = "<group>";
+		};
+		56083EA92A73A9F500904A19 /* NaverWebtoonTests */ = {
+			isa = PBXGroup;
+			children = (
+				56083EAA2A73A9F500904A19 /* NaverWebtoonTests.swift */,
+			);
+			path = NaverWebtoonTests;
+			sourceTree = "<group>";
+		};
+		56083EB32A73A9F500904A19 /* NaverWebtoonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56083EB42A73A9F500904A19 /* NaverWebtoonUITests.swift */,
+				56083EB62A73A9F500904A19 /* NaverWebtoonUITestsLaunchTests.swift */,
+			);
+			path = NaverWebtoonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56083E8F2A73A9F400904A19 /* NaverWebtoon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56083EBA2A73A9F500904A19 /* Build configuration list for PBXNativeTarget "NaverWebtoon" */;
+			buildPhases = (
+				56083E8C2A73A9F400904A19 /* Sources */,
+				56083E8D2A73A9F400904A19 /* Frameworks */,
+				56083E8E2A73A9F400904A19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaverWebtoon;
+			productName = NaverWebtoon;
+			productReference = 56083E902A73A9F400904A19 /* NaverWebtoon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56083EA52A73A9F500904A19 /* NaverWebtoonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56083EBD2A73A9F500904A19 /* Build configuration list for PBXNativeTarget "NaverWebtoonTests" */;
+			buildPhases = (
+				56083EA22A73A9F500904A19 /* Sources */,
+				56083EA32A73A9F500904A19 /* Frameworks */,
+				56083EA42A73A9F500904A19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56083EA82A73A9F500904A19 /* PBXTargetDependency */,
+			);
+			name = NaverWebtoonTests;
+			productName = NaverWebtoonTests;
+			productReference = 56083EA62A73A9F500904A19 /* NaverWebtoonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56083EAF2A73A9F500904A19 /* NaverWebtoonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56083EC02A73A9F500904A19 /* Build configuration list for PBXNativeTarget "NaverWebtoonUITests" */;
+			buildPhases = (
+				56083EAC2A73A9F500904A19 /* Sources */,
+				56083EAD2A73A9F500904A19 /* Frameworks */,
+				56083EAE2A73A9F500904A19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56083EB22A73A9F500904A19 /* PBXTargetDependency */,
+			);
+			name = NaverWebtoonUITests;
+			productName = NaverWebtoonUITests;
+			productReference = 56083EB02A73A9F500904A19 /* NaverWebtoonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56083E882A73A9F400904A19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					56083E8F2A73A9F400904A19 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					56083EA52A73A9F500904A19 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 56083E8F2A73A9F400904A19;
+					};
+					56083EAF2A73A9F500904A19 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 56083E8F2A73A9F400904A19;
+					};
+				};
+			};
+			buildConfigurationList = 56083E8B2A73A9F400904A19 /* Build configuration list for PBXProject "NaverWebtoon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56083E872A73A9F400904A19;
+			productRefGroup = 56083E912A73A9F400904A19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56083E8F2A73A9F400904A19 /* NaverWebtoon */,
+				56083EA52A73A9F500904A19 /* NaverWebtoonTests */,
+				56083EAF2A73A9F500904A19 /* NaverWebtoonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56083E8E2A73A9F400904A19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56083EA02A73A9F500904A19 /* LaunchScreen.storyboard in Resources */,
+				56083E9D2A73A9F500904A19 /* Assets.xcassets in Resources */,
+				56083E9B2A73A9F400904A19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56083EA42A73A9F500904A19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56083EAE2A73A9F500904A19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56083E8C2A73A9F400904A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56083E982A73A9F400904A19 /* ViewController.swift in Sources */,
+				56083E942A73A9F400904A19 /* AppDelegate.swift in Sources */,
+				56083E962A73A9F400904A19 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56083EA22A73A9F500904A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56083EAB2A73A9F500904A19 /* NaverWebtoonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56083EAC2A73A9F500904A19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56083EB72A73A9F500904A19 /* NaverWebtoonUITestsLaunchTests.swift in Sources */,
+				56083EB52A73A9F500904A19 /* NaverWebtoonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56083EA82A73A9F500904A19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56083E8F2A73A9F400904A19 /* NaverWebtoon */;
+			targetProxy = 56083EA72A73A9F500904A19 /* PBXContainerItemProxy */;
+		};
+		56083EB22A73A9F500904A19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56083E8F2A73A9F400904A19 /* NaverWebtoon */;
+			targetProxy = 56083EB12A73A9F500904A19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56083E992A73A9F400904A19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56083E9A2A73A9F400904A19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56083E9E2A73A9F500904A19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56083E9F2A73A9F500904A19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56083EB82A73A9F500904A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56083EB92A73A9F500904A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56083EBB2A73A9F500904A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YRZW7MZ3P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NaverWebtoon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingni.NaverWebtoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56083EBC2A73A9F500904A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YRZW7MZ3P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NaverWebtoon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingni.NaverWebtoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56083EBE2A73A9F500904A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YRZW7MZ3P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingni.NaverWebtoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaverWebtoon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NaverWebtoon";
+			};
+			name = Debug;
+		};
+		56083EBF2A73A9F500904A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YRZW7MZ3P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingni.NaverWebtoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaverWebtoon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NaverWebtoon";
+			};
+			name = Release;
+		};
+		56083EC12A73A9F500904A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YRZW7MZ3P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingni.NaverWebtoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NaverWebtoon;
+			};
+			name = Debug;
+		};
+		56083EC22A73A9F500904A19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YRZW7MZ3P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingni.NaverWebtoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NaverWebtoon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56083E8B2A73A9F400904A19 /* Build configuration list for PBXProject "NaverWebtoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56083EB82A73A9F500904A19 /* Debug */,
+				56083EB92A73A9F500904A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56083EBA2A73A9F500904A19 /* Build configuration list for PBXNativeTarget "NaverWebtoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56083EBB2A73A9F500904A19 /* Debug */,
+				56083EBC2A73A9F500904A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56083EBD2A73A9F500904A19 /* Build configuration list for PBXNativeTarget "NaverWebtoonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56083EBE2A73A9F500904A19 /* Debug */,
+				56083EBF2A73A9F500904A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56083EC02A73A9F500904A19 /* Build configuration list for PBXNativeTarget "NaverWebtoonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56083EC12A73A9F500904A19 /* Debug */,
+				56083EC22A73A9F500904A19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56083E882A73A9F400904A19 /* Project object */;
+}
