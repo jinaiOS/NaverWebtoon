@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44463FFA486465FFA3FB73F0 /* Pods_NaverWebtoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B273F45021A9F87A8CA81D /* Pods_NaverWebtoon.framework */; };
 		56083E942A73A9F400904A19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083E932A73A9F400904A19 /* AppDelegate.swift */; };
 		56083E962A73A9F400904A19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083E952A73A9F400904A19 /* SceneDelegate.swift */; };
 		56083E982A73A9F400904A19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083E972A73A9F400904A19 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		56083EAB2A73A9F500904A19 /* NaverWebtoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083EAA2A73A9F500904A19 /* NaverWebtoonTests.swift */; };
 		56083EB52A73A9F500904A19 /* NaverWebtoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083EB42A73A9F500904A19 /* NaverWebtoonUITests.swift */; };
 		56083EB72A73A9F500904A19 /* NaverWebtoonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083EB62A73A9F500904A19 /* NaverWebtoonUITestsLaunchTests.swift */; };
+		5ED8940B93FF8DA3E8C91D0B /* Pods_NaverWebtoon_NaverWebtoonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E6E8545032F000DB7FA74 /* Pods_NaverWebtoon_NaverWebtoonUITests.framework */; };
+		7919BBFA636B56F5B4A7DAD2 /* Pods_NaverWebtoonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD243428B17574616EAF01EB /* Pods_NaverWebtoonTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1010D5EA54306D8A1AD2FD16 /* Pods-NaverWebtoon-NaverWebtoonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverWebtoon-NaverWebtoonUITests.debug.xcconfig"; path = "Target Support Files/Pods-NaverWebtoon-NaverWebtoonUITests/Pods-NaverWebtoon-NaverWebtoonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3953DC64FAED815A3E78C6E6 /* Pods-NaverWebtoonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverWebtoonTests.debug.xcconfig"; path = "Target Support Files/Pods-NaverWebtoonTests/Pods-NaverWebtoonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		56083E902A73A9F400904A19 /* NaverWebtoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaverWebtoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56083E932A73A9F400904A19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56083E952A73A9F400904A19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		56083EB02A73A9F500904A19 /* NaverWebtoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaverWebtoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56083EB42A73A9F500904A19 /* NaverWebtoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverWebtoonUITests.swift; sourceTree = "<group>"; };
 		56083EB62A73A9F500904A19 /* NaverWebtoonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverWebtoonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		64D28AF9728E9D724DC7F4B2 /* Pods-NaverWebtoon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverWebtoon.release.xcconfig"; path = "Target Support Files/Pods-NaverWebtoon/Pods-NaverWebtoon.release.xcconfig"; sourceTree = "<group>"; };
+		65B273F45021A9F87A8CA81D /* Pods_NaverWebtoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaverWebtoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76796022532917EFCB500520 /* Pods-NaverWebtoon-NaverWebtoonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverWebtoon-NaverWebtoonUITests.release.xcconfig"; path = "Target Support Files/Pods-NaverWebtoon-NaverWebtoonUITests/Pods-NaverWebtoon-NaverWebtoonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		79CC8CCB4BBDB2E9663993F8 /* Pods-NaverWebtoon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverWebtoon.debug.xcconfig"; path = "Target Support Files/Pods-NaverWebtoon/Pods-NaverWebtoon.debug.xcconfig"; sourceTree = "<group>"; };
+		919E6E8545032F000DB7FA74 /* Pods_NaverWebtoon_NaverWebtoonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaverWebtoon_NaverWebtoonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FD82F440A74991153DF375 /* Pods-NaverWebtoonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverWebtoonTests.release.xcconfig"; path = "Target Support Files/Pods-NaverWebtoonTests/Pods-NaverWebtoonTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD243428B17574616EAF01EB /* Pods_NaverWebtoonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaverWebtoonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44463FFA486465FFA3FB73F0 /* Pods_NaverWebtoon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7919BBFA636B56F5B4A7DAD2 /* Pods_NaverWebtoonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ED8940B93FF8DA3E8C91D0B /* Pods_NaverWebtoon_NaverWebtoonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				56083EA92A73A9F500904A19 /* NaverWebtoonTests */,
 				56083EB32A73A9F500904A19 /* NaverWebtoonUITests */,
 				56083E912A73A9F400904A19 /* Products */,
+				DA7B26A10214BE3A495A27A1 /* Pods */,
+				74FF16918FCAD7CADD9C645E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +144,30 @@
 			path = NaverWebtoonUITests;
 			sourceTree = "<group>";
 		};
+		74FF16918FCAD7CADD9C645E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65B273F45021A9F87A8CA81D /* Pods_NaverWebtoon.framework */,
+				919E6E8545032F000DB7FA74 /* Pods_NaverWebtoon_NaverWebtoonUITests.framework */,
+				CD243428B17574616EAF01EB /* Pods_NaverWebtoonTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA7B26A10214BE3A495A27A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79CC8CCB4BBDB2E9663993F8 /* Pods-NaverWebtoon.debug.xcconfig */,
+				64D28AF9728E9D724DC7F4B2 /* Pods-NaverWebtoon.release.xcconfig */,
+				1010D5EA54306D8A1AD2FD16 /* Pods-NaverWebtoon-NaverWebtoonUITests.debug.xcconfig */,
+				76796022532917EFCB500520 /* Pods-NaverWebtoon-NaverWebtoonUITests.release.xcconfig */,
+				3953DC64FAED815A3E78C6E6 /* Pods-NaverWebtoonTests.debug.xcconfig */,
+				A1FD82F440A74991153DF375 /* Pods-NaverWebtoonTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56083EBA2A73A9F500904A19 /* Build configuration list for PBXNativeTarget "NaverWebtoon" */;
 			buildPhases = (
+				F5DFA886180C72C58886D76D /* [CP] Check Pods Manifest.lock */,
 				56083E8C2A73A9F400904A19 /* Sources */,
 				56083E8D2A73A9F400904A19 /* Frameworks */,
 				56083E8E2A73A9F400904A19 /* Resources */,
+				F3831736024010CBAF043B71 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56083EBD2A73A9F500904A19 /* Build configuration list for PBXNativeTarget "NaverWebtoonTests" */;
 			buildPhases = (
+				4ED268BD3AA27ED9B279E17D /* [CP] Check Pods Manifest.lock */,
 				56083EA22A73A9F500904A19 /* Sources */,
 				56083EA32A73A9F500904A19 /* Frameworks */,
 				56083EA42A73A9F500904A19 /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56083EC02A73A9F500904A19 /* Build configuration list for PBXNativeTarget "NaverWebtoonUITests" */;
 			buildPhases = (
+				D7EA28783D02F857B1ACACCF /* [CP] Check Pods Manifest.lock */,
 				56083EAC2A73A9F500904A19 /* Sources */,
 				56083EAD2A73A9F500904A19 /* Frameworks */,
 				56083EAE2A73A9F500904A19 /* Resources */,
+				275DCA712800C3C3158B9FE9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		275DCA712800C3C3158B9FE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NaverWebtoon-NaverWebtoonUITests/Pods-NaverWebtoon-NaverWebtoonUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NaverWebtoon-NaverWebtoonUITests/Pods-NaverWebtoon-NaverWebtoonUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NaverWebtoon-NaverWebtoonUITests/Pods-NaverWebtoon-NaverWebtoonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ED268BD3AA27ED9B279E17D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaverWebtoonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7EA28783D02F857B1ACACCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaverWebtoon-NaverWebtoonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3831736024010CBAF043B71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NaverWebtoon/Pods-NaverWebtoon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NaverWebtoon/Pods-NaverWebtoon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NaverWebtoon/Pods-NaverWebtoon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5DFA886180C72C58886D76D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaverWebtoon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		56083E8C2A73A9F400904A19 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		56083EBB2A73A9F500904A19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79CC8CCB4BBDB2E9663993F8 /* Pods-NaverWebtoon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +610,7 @@
 		};
 		56083EBC2A73A9F500904A19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64D28AF9728E9D724DC7F4B2 /* Pods-NaverWebtoon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +639,7 @@
 		};
 		56083EBE2A73A9F500904A19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3953DC64FAED815A3E78C6E6 /* Pods-NaverWebtoonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +660,7 @@
 		};
 		56083EBF2A73A9F500904A19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1FD82F440A74991153DF375 /* Pods-NaverWebtoonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +681,7 @@
 		};
 		56083EC12A73A9F500904A19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1010D5EA54306D8A1AD2FD16 /* Pods-NaverWebtoon-NaverWebtoonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +700,7 @@
 		};
 		56083EC22A73A9F500904A19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76796022532917EFCB500520 /* Pods-NaverWebtoon-NaverWebtoonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
