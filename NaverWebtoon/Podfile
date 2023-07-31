@@ -8,6 +8,7 @@ target 'NaverWebtoon' do
   # Pods for NaverWebtoon
 
 pod 'Alamofire'
+pod 'CryptoSwift'
 
   target 'NaverWebtoonTests' do
     inherit! :search_paths

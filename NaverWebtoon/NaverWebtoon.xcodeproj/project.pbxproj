@@ -17,6 +17,17 @@
 		56083EAB2A73A9F500904A19 /* NaverWebtoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083EAA2A73A9F500904A19 /* NaverWebtoonTests.swift */; };
 		56083EB52A73A9F500904A19 /* NaverWebtoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083EB42A73A9F500904A19 /* NaverWebtoonUITests.swift */; };
 		56083EB72A73A9F500904A19 /* NaverWebtoonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083EB62A73A9F500904A19 /* NaverWebtoonUITestsLaunchTests.swift */; };
+		56083EC42A77337100904A19 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083EC32A77337100904A19 /* APIService.swift */; };
+		56083EC72A776C6100904A19 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083EC62A776C6100904A19 /* BaseService.swift */; };
+		56083EC92A779F8600904A19 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083EC82A779F8600904A19 /* APIError.swift */; };
+		56083ECB2A779F9F00904A19 /* APIInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083ECA2A779F9F00904A19 /* APIInterceptor.swift */; };
+		56083ECD2A77A04000904A19 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083ECC2A77A04000904A19 /* APIConstants.swift */; };
+		56083ECF2A77A18700904A19 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083ECE2A77A18700904A19 /* Reachability.swift */; };
+		56083ED12A77A3F800904A19 /* AESUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083ED02A77A3F800904A19 /* AESUtil.swift */; };
+		56083ED32A77A41000904A19 /* AES256Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083ED22A77A41000904A19 /* AES256Util.swift */; };
+		56083EDB2A77A43600904A19 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 56083ED52A77A43600904A19 /* NSDataAdditions.m */; };
+		56083EDC2A77A43600904A19 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 56083ED82A77A43600904A19 /* NSData+AES256.m */; };
+		56083EDD2A77A43600904A19 /* NSString+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 56083ED92A77A43600904A19 /* NSString+Encrypt.m */; };
 		5ED8940B93FF8DA3E8C91D0B /* Pods_NaverWebtoon_NaverWebtoonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E6E8545032F000DB7FA74 /* Pods_NaverWebtoon_NaverWebtoonUITests.framework */; };
 		7919BBFA636B56F5B4A7DAD2 /* Pods_NaverWebtoonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD243428B17574616EAF01EB /* Pods_NaverWebtoonTests.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +65,20 @@
 		56083EB02A73A9F500904A19 /* NaverWebtoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaverWebtoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56083EB42A73A9F500904A19 /* NaverWebtoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverWebtoonUITests.swift; sourceTree = "<group>"; };
 		56083EB62A73A9F500904A19 /* NaverWebtoonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverWebtoonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		56083EC32A77337100904A19 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		56083EC62A776C6100904A19 /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		56083EC82A779F8600904A19 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		56083ECA2A779F9F00904A19 /* APIInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIInterceptor.swift; sourceTree = "<group>"; };
+		56083ECC2A77A04000904A19 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		56083ECE2A77A18700904A19 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		56083ED02A77A3F800904A19 /* AESUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESUtil.swift; sourceTree = "<group>"; };
+		56083ED22A77A41000904A19 /* AES256Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES256Util.swift; sourceTree = "<group>"; };
+		56083ED52A77A43600904A19 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		56083ED62A77A43600904A19 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		56083ED72A77A43600904A19 /* NSString+Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encrypt.h"; sourceTree = "<group>"; };
+		56083ED82A77A43600904A19 /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
+		56083ED92A77A43600904A19 /* NSString+Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encrypt.m"; sourceTree = "<group>"; };
+		56083EDA2A77A43600904A19 /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
 		64D28AF9728E9D724DC7F4B2 /* Pods-NaverWebtoon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverWebtoon.release.xcconfig"; path = "Target Support Files/Pods-NaverWebtoon/Pods-NaverWebtoon.release.xcconfig"; sourceTree = "<group>"; };
 		65B273F45021A9F87A8CA81D /* Pods_NaverWebtoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaverWebtoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76796022532917EFCB500520 /* Pods-NaverWebtoon-NaverWebtoonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverWebtoon-NaverWebtoonUITests.release.xcconfig"; path = "Target Support Files/Pods-NaverWebtoon-NaverWebtoonUITests/Pods-NaverWebtoon-NaverWebtoonUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +144,7 @@
 				56083E932A73A9F400904A19 /* AppDelegate.swift */,
 				56083E952A73A9F400904A19 /* SceneDelegate.swift */,
 				56083E972A73A9F400904A19 /* ViewController.swift */,
+				56083EC52A776C5300904A19 /* Network */,
 				56083E992A73A9F400904A19 /* Main.storyboard */,
 				56083E9C2A73A9F500904A19 /* Assets.xcassets */,
 				56083E9E2A73A9F500904A19 /* LaunchScreen.storyboard */,
@@ -144,6 +170,35 @@
 			path = NaverWebtoonUITests;
 			sourceTree = "<group>";
 		};
+		56083EC52A776C5300904A19 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				56083EC62A776C6100904A19 /* BaseService.swift */,
+				56083EC82A779F8600904A19 /* APIError.swift */,
+				56083ECA2A779F9F00904A19 /* APIInterceptor.swift */,
+				56083EC32A77337100904A19 /* APIService.swift */,
+				56083ECC2A77A04000904A19 /* APIConstants.swift */,
+				56083ECE2A77A18700904A19 /* Reachability.swift */,
+				56083EDE2A77A48100904A19 /* AES */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		56083EDE2A77A48100904A19 /* AES */ = {
+			isa = PBXGroup;
+			children = (
+				56083ED02A77A3F800904A19 /* AESUtil.swift */,
+				56083ED22A77A41000904A19 /* AES256Util.swift */,
+				56083EDA2A77A43600904A19 /* NSData+AES256.h */,
+				56083ED82A77A43600904A19 /* NSData+AES256.m */,
+				56083ED62A77A43600904A19 /* NSDataAdditions.h */,
+				56083ED52A77A43600904A19 /* NSDataAdditions.m */,
+				56083ED72A77A43600904A19 /* NSString+Encrypt.h */,
+				56083ED92A77A43600904A19 /* NSString+Encrypt.m */,
+			);
+			path = AES;
+			sourceTree = "<group>";
+		};
 		74FF16918FCAD7CADD9C645E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +219,6 @@
 				3953DC64FAED815A3E78C6E6 /* Pods-NaverWebtoonTests.debug.xcconfig */,
 				A1FD82F440A74991153DF375 /* Pods-NaverWebtoonTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -241,6 +295,7 @@
 				TargetAttributes = {
 					56083E8F2A73A9F400904A19 = {
 						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
 					};
 					56083EA52A73A9F500904A19 = {
 						CreatedOnToolsVersion = 14.3;
@@ -409,7 +464,18 @@
 			files = (
 				56083E982A73A9F400904A19 /* ViewController.swift in Sources */,
 				56083E942A73A9F400904A19 /* AppDelegate.swift in Sources */,
+				56083EC42A77337100904A19 /* APIService.swift in Sources */,
+				56083EC72A776C6100904A19 /* BaseService.swift in Sources */,
+				56083ECD2A77A04000904A19 /* APIConstants.swift in Sources */,
+				56083ED32A77A41000904A19 /* AES256Util.swift in Sources */,
+				56083EDB2A77A43600904A19 /* NSDataAdditions.m in Sources */,
+				56083ECF2A77A18700904A19 /* Reachability.swift in Sources */,
 				56083E962A73A9F400904A19 /* SceneDelegate.swift in Sources */,
+				56083EC92A779F8600904A19 /* APIError.swift in Sources */,
+				56083ECB2A779F9F00904A19 /* APIInterceptor.swift in Sources */,
+				56083EDC2A77A43600904A19 /* NSData+AES256.m in Sources */,
+				56083ED12A77A3F800904A19 /* AESUtil.swift in Sources */,
+				56083EDD2A77A43600904A19 /* NSString+Encrypt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +651,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YRZW7MZ3P5;
@@ -603,6 +670,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jingni.NaverWebtoon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -614,6 +682,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YRZW7MZ3P5;
