@@ -28,7 +28,7 @@ struct APIConstants {
     
     /// Returns a comic's information by `:id`
     static func comicsInfoURL() -> URL? {
-        let requestURLstr = (APIConstants.serverBaseURL + "/id")
+        let requestURLstr = (APIConstants.serverBaseURL)
         guard let url = URL(string: requestURLstr) else { return nil }
         return url
     }

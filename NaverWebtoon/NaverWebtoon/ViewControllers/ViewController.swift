@@ -66,4 +66,11 @@ extension ViewController : UICollectionViewDelegate, UICollectionViewDataSource,
             return CGSize(width: width, height: width)
         }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let aboutWebtoonViewController = AboutWebtoonViewController()
+        aboutWebtoonViewController.modalPresentationStyle = .pageSheet
+        aboutWebtoonViewController.id = Int(todayWebtoonData?[indexPath.row].id ?? "")!
+           present(aboutWebtoonViewController, animated: true, completion: nil)
+    }
+    
 }
