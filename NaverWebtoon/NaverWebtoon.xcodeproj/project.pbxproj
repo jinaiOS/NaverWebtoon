@@ -28,6 +28,11 @@
 		56083EDB2A77A43600904A19 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 56083ED52A77A43600904A19 /* NSDataAdditions.m */; };
 		56083EDC2A77A43600904A19 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 56083ED82A77A43600904A19 /* NSData+AES256.m */; };
 		56083EDD2A77A43600904A19 /* NSString+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 56083ED92A77A43600904A19 /* NSString+Encrypt.m */; };
+		56083EE22A77C03000904A19 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083EE12A77C03000904A19 /* Alert.swift */; };
+		56083EE82A77C49500904A19 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083EE72A77C49500904A19 /* Log.swift */; };
+		56083EEA2A77C8FF00904A19 /* TodayWebtoonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083EE92A77C8FF00904A19 /* TodayWebtoonModel.swift */; };
+		56083EF22A78A51800904A19 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083EF12A78A51800904A19 /* Repository.swift */; };
+		56083EF42A78E27200904A19 /* WebtoonInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083EF32A78E27200904A19 /* WebtoonInfoModel.swift */; };
 		5ED8940B93FF8DA3E8C91D0B /* Pods_NaverWebtoon_NaverWebtoonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E6E8545032F000DB7FA74 /* Pods_NaverWebtoon_NaverWebtoonUITests.framework */; };
 		7919BBFA636B56F5B4A7DAD2 /* Pods_NaverWebtoonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD243428B17574616EAF01EB /* Pods_NaverWebtoonTests.framework */; };
 /* End PBXBuildFile section */
@@ -79,6 +84,11 @@
 		56083ED82A77A43600904A19 /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
 		56083ED92A77A43600904A19 /* NSString+Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encrypt.m"; sourceTree = "<group>"; };
 		56083EDA2A77A43600904A19 /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		56083EE12A77C03000904A19 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		56083EE72A77C49500904A19 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		56083EE92A77C8FF00904A19 /* TodayWebtoonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWebtoonModel.swift; sourceTree = "<group>"; };
+		56083EF12A78A51800904A19 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		56083EF32A78E27200904A19 /* WebtoonInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtoonInfoModel.swift; sourceTree = "<group>"; };
 		64D28AF9728E9D724DC7F4B2 /* Pods-NaverWebtoon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverWebtoon.release.xcconfig"; path = "Target Support Files/Pods-NaverWebtoon/Pods-NaverWebtoon.release.xcconfig"; sourceTree = "<group>"; };
 		65B273F45021A9F87A8CA81D /* Pods_NaverWebtoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaverWebtoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76796022532917EFCB500520 /* Pods-NaverWebtoon-NaverWebtoonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverWebtoon-NaverWebtoonUITests.release.xcconfig"; path = "Target Support Files/Pods-NaverWebtoon-NaverWebtoonUITests/Pods-NaverWebtoon-NaverWebtoonUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -144,8 +154,9 @@
 				56083E932A73A9F400904A19 /* AppDelegate.swift */,
 				56083E952A73A9F400904A19 /* SceneDelegate.swift */,
 				56083E972A73A9F400904A19 /* ViewController.swift */,
-				56083EC52A776C5300904A19 /* Network */,
 				56083E992A73A9F400904A19 /* Main.storyboard */,
+				56083EF62A78E3EA00904A19 /* Models */,
+				56083EF52A78E3D400904A19 /* Utilities */,
 				56083E9C2A73A9F500904A19 /* Assets.xcassets */,
 				56083E9E2A73A9F500904A19 /* LaunchScreen.storyboard */,
 				56083EA12A73A9F500904A19 /* Info.plist */,
@@ -178,7 +189,6 @@
 				56083ECA2A779F9F00904A19 /* APIInterceptor.swift */,
 				56083EC32A77337100904A19 /* APIService.swift */,
 				56083ECC2A77A04000904A19 /* APIConstants.swift */,
-				56083ECE2A77A18700904A19 /* Reachability.swift */,
 				56083EDE2A77A48100904A19 /* AES */,
 			);
 			path = Network;
@@ -197,6 +207,27 @@
 				56083ED92A77A43600904A19 /* NSString+Encrypt.m */,
 			);
 			path = AES;
+			sourceTree = "<group>";
+		};
+		56083EF52A78E3D400904A19 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				56083EF12A78A51800904A19 /* Repository.swift */,
+				56083ECE2A77A18700904A19 /* Reachability.swift */,
+				56083EE12A77C03000904A19 /* Alert.swift */,
+				56083EE72A77C49500904A19 /* Log.swift */,
+				56083EC52A776C5300904A19 /* Network */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		56083EF62A78E3EA00904A19 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				56083EE92A77C8FF00904A19 /* TodayWebtoonModel.swift */,
+				56083EF32A78E27200904A19 /* WebtoonInfoModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		74FF16918FCAD7CADD9C645E /* Frameworks */ = {
@@ -465,11 +496,16 @@
 				56083E982A73A9F400904A19 /* ViewController.swift in Sources */,
 				56083E942A73A9F400904A19 /* AppDelegate.swift in Sources */,
 				56083EC42A77337100904A19 /* APIService.swift in Sources */,
+				56083EE22A77C03000904A19 /* Alert.swift in Sources */,
+				56083EEA2A77C8FF00904A19 /* TodayWebtoonModel.swift in Sources */,
 				56083EC72A776C6100904A19 /* BaseService.swift in Sources */,
 				56083ECD2A77A04000904A19 /* APIConstants.swift in Sources */,
+				56083EF42A78E27200904A19 /* WebtoonInfoModel.swift in Sources */,
 				56083ED32A77A41000904A19 /* AES256Util.swift in Sources */,
 				56083EDB2A77A43600904A19 /* NSDataAdditions.m in Sources */,
+				56083EE82A77C49500904A19 /* Log.swift in Sources */,
 				56083ECF2A77A18700904A19 /* Reachability.swift in Sources */,
+				56083EF22A78A51800904A19 /* Repository.swift in Sources */,
 				56083E962A73A9F400904A19 /* SceneDelegate.swift in Sources */,
 				56083EC92A779F8600904A19 /* APIError.swift in Sources */,
 				56083ECB2A779F9F00904A19 /* APIInterceptor.swift in Sources */,
