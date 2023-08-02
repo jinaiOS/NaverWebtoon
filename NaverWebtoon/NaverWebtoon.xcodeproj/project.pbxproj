@@ -23,11 +23,6 @@
 		56083ECB2A779F9F00904A19 /* APIInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083ECA2A779F9F00904A19 /* APIInterceptor.swift */; };
 		56083ECD2A77A04000904A19 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083ECC2A77A04000904A19 /* APIConstants.swift */; };
 		56083ECF2A77A18700904A19 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083ECE2A77A18700904A19 /* Reachability.swift */; };
-		56083ED12A77A3F800904A19 /* AESUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083ED02A77A3F800904A19 /* AESUtil.swift */; };
-		56083ED32A77A41000904A19 /* AES256Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083ED22A77A41000904A19 /* AES256Util.swift */; };
-		56083EDB2A77A43600904A19 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 56083ED52A77A43600904A19 /* NSDataAdditions.m */; };
-		56083EDC2A77A43600904A19 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 56083ED82A77A43600904A19 /* NSData+AES256.m */; };
-		56083EDD2A77A43600904A19 /* NSString+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 56083ED92A77A43600904A19 /* NSString+Encrypt.m */; };
 		56083EE22A77C03000904A19 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083EE12A77C03000904A19 /* Alert.swift */; };
 		56083EE82A77C49500904A19 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083EE72A77C49500904A19 /* Log.swift */; };
 		56083EEA2A77C8FF00904A19 /* TodayWebtoonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083EE92A77C8FF00904A19 /* TodayWebtoonModel.swift */; };
@@ -84,14 +79,6 @@
 		56083ECA2A779F9F00904A19 /* APIInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIInterceptor.swift; sourceTree = "<group>"; };
 		56083ECC2A77A04000904A19 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		56083ECE2A77A18700904A19 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
-		56083ED02A77A3F800904A19 /* AESUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESUtil.swift; sourceTree = "<group>"; };
-		56083ED22A77A41000904A19 /* AES256Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES256Util.swift; sourceTree = "<group>"; };
-		56083ED52A77A43600904A19 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
-		56083ED62A77A43600904A19 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
-		56083ED72A77A43600904A19 /* NSString+Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encrypt.h"; sourceTree = "<group>"; };
-		56083ED82A77A43600904A19 /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
-		56083ED92A77A43600904A19 /* NSString+Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encrypt.m"; sourceTree = "<group>"; };
-		56083EDA2A77A43600904A19 /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
 		56083EE12A77C03000904A19 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		56083EE72A77C49500904A19 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		56083EE92A77C8FF00904A19 /* TodayWebtoonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWebtoonModel.swift; sourceTree = "<group>"; };
@@ -205,24 +192,8 @@
 				56083ECA2A779F9F00904A19 /* APIInterceptor.swift */,
 				56083EC32A77337100904A19 /* APIService.swift */,
 				56083ECC2A77A04000904A19 /* APIConstants.swift */,
-				56083EDE2A77A48100904A19 /* AES */,
 			);
 			path = Network;
-			sourceTree = "<group>";
-		};
-		56083EDE2A77A48100904A19 /* AES */ = {
-			isa = PBXGroup;
-			children = (
-				56083ED02A77A3F800904A19 /* AESUtil.swift */,
-				56083ED22A77A41000904A19 /* AES256Util.swift */,
-				56083EDA2A77A43600904A19 /* NSData+AES256.h */,
-				56083ED82A77A43600904A19 /* NSData+AES256.m */,
-				56083ED62A77A43600904A19 /* NSDataAdditions.h */,
-				56083ED52A77A43600904A19 /* NSDataAdditions.m */,
-				56083ED72A77A43600904A19 /* NSString+Encrypt.h */,
-				56083ED92A77A43600904A19 /* NSString+Encrypt.m */,
-			);
-			path = AES;
 			sourceTree = "<group>";
 		};
 		56083EF52A78E3D400904A19 /* Utilities */ = {
@@ -560,8 +531,6 @@
 				56083EC72A776C6100904A19 /* BaseService.swift in Sources */,
 				56083ECD2A77A04000904A19 /* APIConstants.swift in Sources */,
 				56083EF42A78E27200904A19 /* WebtoonInfoModel.swift in Sources */,
-				56083ED32A77A41000904A19 /* AES256Util.swift in Sources */,
-				56083EDB2A77A43600904A19 /* NSDataAdditions.m in Sources */,
 				56083EE82A77C49500904A19 /* Log.swift in Sources */,
 				56083ECF2A77A18700904A19 /* Reachability.swift in Sources */,
 				56083F0B2A79E45C00904A19 /* WebtoonEpisodeModel.swift in Sources */,
@@ -572,9 +541,6 @@
 				56083EFC2A79036100904A19 /* UIImage+Extension.swift in Sources */,
 				56083EF92A78EEB600904A19 /* WebtoonCollectionViewCell.swift in Sources */,
 				56083ECB2A779F9F00904A19 /* APIInterceptor.swift in Sources */,
-				56083EDC2A77A43600904A19 /* NSData+AES256.m in Sources */,
-				56083ED12A77A3F800904A19 /* AESUtil.swift in Sources */,
-				56083EDD2A77A43600904A19 /* NSString+Encrypt.m in Sources */,
 				56083F062A79DE7600904A19 /* EpisodeTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
