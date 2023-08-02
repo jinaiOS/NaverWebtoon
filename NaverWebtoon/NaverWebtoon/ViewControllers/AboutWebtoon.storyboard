@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Vbk-bn-FNT">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="541"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="557"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UM7-Mo-4zE">
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="400"/>
@@ -29,19 +29,16 @@
                                                 </constraints>
                                             </imageView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cl0-OL-DTa">
-                                                <rect key="frame" x="0.0" y="400" width="393" height="141"/>
+                                                <rect key="frame" x="0.0" y="400" width="393" height="157"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjb-34-wnW">
-                                                        <rect key="frame" x="20" y="10" width="353" height="20"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="20" id="hcu-cZ-uNm"/>
-                                                        </constraints>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjb-34-wnW">
+                                                        <rect key="frame" x="20" y="10" width="353" height="36"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="about" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ot7-0I-rL5">
-                                                        <rect key="frame" x="20" y="40" width="353" height="20.333333333333329"/>
+                                                        <rect key="frame" x="20" y="56.000000000000007" width="353" height="20.333333333333336"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" priority="700" constant="20" id="XSO-qa-Jeq"/>
                                                         </constraints>
@@ -49,20 +46,14 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="genre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHM-32-CX7">
-                                                        <rect key="frame" x="20" y="70.333333333333371" width="353" height="20.333333333333329"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="20.329999999999998" id="Bw1-hn-5tC"/>
-                                                        </constraints>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="genre" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHM-32-CX7">
+                                                        <rect key="frame" x="20" y="86.333333333333371" width="353" height="20.333333333333329"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7jp-TT-Gc6">
-                                                        <rect key="frame" x="20" y="100.66666666666663" width="353" height="20.333333333333329"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="20.329999999999998" id="zHh-Ia-cgq"/>
-                                                        </constraints>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="age" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7jp-TT-Gc6">
+                                                        <rect key="frame" x="20" y="116.66666666666663" width="353" height="20.333333333333343"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -107,11 +98,11 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="ivMain" destination="UM7-Mo-4zE" id="SNq-Nr-O70"/>
-                        <outlet property="lblAbout" destination="ot7-0I-rL5" id="Rs9-ZH-IzM"/>
-                        <outlet property="lblAge" destination="7jp-TT-Gc6" id="gim-IQ-Giz"/>
-                        <outlet property="lblGenre" destination="MHM-32-CX7" id="jFV-Zj-Fib"/>
-                        <outlet property="lblTitle" destination="hjb-34-wnW" id="td6-im-t6m"/>
+                        <outlet property="ivMain" destination="UM7-Mo-4zE" id="3Yi-WE-waV"/>
+                        <outlet property="lblAbout" destination="ot7-0I-rL5" id="2J9-NC-5xO"/>
+                        <outlet property="lblAge" destination="7jp-TT-Gc6" id="5nO-Bg-dcc"/>
+                        <outlet property="lblGenre" destination="MHM-32-CX7" id="uHm-dB-DRd"/>
+                        <outlet property="lblTitle" destination="hjb-34-wnW" id="Job-oD-2Wb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -38,6 +38,8 @@
 		56083EFC2A79036100904A19 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083EFB2A79036100904A19 /* UIImage+Extension.swift */; };
 		56083F012A79082900904A19 /* AboutWebtoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083F002A79082900904A19 /* AboutWebtoonViewController.swift */; };
 		56083F032A79085000904A19 /* AboutWebtoon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56083F022A79085000904A19 /* AboutWebtoon.storyboard */; };
+		56083F062A79DE7600904A19 /* EpisodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083F042A79DE7600904A19 /* EpisodeTableViewCell.swift */; };
+		56083F072A79DE7600904A19 /* EpisodeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56083F052A79DE7600904A19 /* EpisodeTableViewCell.xib */; };
 		5ED8940B93FF8DA3E8C91D0B /* Pods_NaverWebtoon_NaverWebtoonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E6E8545032F000DB7FA74 /* Pods_NaverWebtoon_NaverWebtoonUITests.framework */; };
 		7919BBFA636B56F5B4A7DAD2 /* Pods_NaverWebtoonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD243428B17574616EAF01EB /* Pods_NaverWebtoonTests.framework */; };
 /* End PBXBuildFile section */
@@ -99,6 +101,8 @@
 		56083EFB2A79036100904A19 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		56083F002A79082900904A19 /* AboutWebtoonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutWebtoonViewController.swift; sourceTree = "<group>"; };
 		56083F022A79085000904A19 /* AboutWebtoon.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AboutWebtoon.storyboard; sourceTree = "<group>"; };
+		56083F042A79DE7600904A19 /* EpisodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeTableViewCell.swift; sourceTree = "<group>"; };
+		56083F052A79DE7600904A19 /* EpisodeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeTableViewCell.xib; sourceTree = "<group>"; };
 		64D28AF9728E9D724DC7F4B2 /* Pods-NaverWebtoon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverWebtoon.release.xcconfig"; path = "Target Support Files/Pods-NaverWebtoon/Pods-NaverWebtoon.release.xcconfig"; sourceTree = "<group>"; };
 		65B273F45021A9F87A8CA81D /* Pods_NaverWebtoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaverWebtoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76796022532917EFCB500520 /* Pods-NaverWebtoon-NaverWebtoonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverWebtoon-NaverWebtoonUITests.release.xcconfig"; path = "Target Support Files/Pods-NaverWebtoon-NaverWebtoonUITests/Pods-NaverWebtoon-NaverWebtoonUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -254,9 +258,10 @@
 			children = (
 				56083E972A73A9F400904A19 /* ViewController.swift */,
 				56083E992A73A9F400904A19 /* Main.storyboard */,
+				56083EFD2A79063700904A19 /* WebtoonCollectionViewCell */,
 				56083F002A79082900904A19 /* AboutWebtoonViewController.swift */,
 				56083F022A79085000904A19 /* AboutWebtoon.storyboard */,
-				56083EFD2A79063700904A19 /* WebtoonCollectionViewCell */,
+				56083F092A79DE8100904A19 /* EpisodeTableViewCell */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -267,6 +272,15 @@
 				56083EFB2A79036100904A19 /* UIImage+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		56083F092A79DE8100904A19 /* EpisodeTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				56083F042A79DE7600904A19 /* EpisodeTableViewCell.swift */,
+				56083F052A79DE7600904A19 /* EpisodeTableViewCell.xib */,
+			);
+			path = EpisodeTableViewCell;
 			sourceTree = "<group>";
 		};
 		74FF16918FCAD7CADD9C645E /* Frameworks */ = {
@@ -403,6 +417,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56083EA02A73A9F500904A19 /* LaunchScreen.storyboard in Resources */,
+				56083F072A79DE7600904A19 /* EpisodeTableViewCell.xib in Resources */,
 				56083F032A79085000904A19 /* AboutWebtoon.storyboard in Resources */,
 				56083E9D2A73A9F500904A19 /* Assets.xcassets in Resources */,
 				56083E9B2A73A9F400904A19 /* Main.storyboard in Resources */,
@@ -556,6 +571,7 @@
 				56083EDC2A77A43600904A19 /* NSData+AES256.m in Sources */,
 				56083ED12A77A3F800904A19 /* AESUtil.swift in Sources */,
 				56083EDD2A77A43600904A19 /* NSString+Encrypt.m in Sources */,
+				56083F062A79DE7600904A19 /* EpisodeTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

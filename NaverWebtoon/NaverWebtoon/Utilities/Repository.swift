@@ -25,11 +25,8 @@ struct Repository: DefaultRepository {
     
     /// 웹툰 정보 받기
     func requestWebtoonInfo(id: Int, completion: @escaping (Result<WebtoonInfoModel?,CommonAPIError>) -> Void) -> DataRequest? {
-        let url = APIConstants.comicsInfoURL()
-        let parameters : Parameters = [
-            "id": id
-        ]
-        return APIService.shared.requestApi(requestURL: url, requestType: .post, parameters: parameters, modelType: WebtoonInfoModel.self, completion: completion)
+        let url = APIConstants.comicsInfoURL(id: id)
+        return APIService.shared.requestApi(requestURL: url, requestType: .post, modelType: WebtoonInfoModel.self, completion: completion)
     }
     
 }

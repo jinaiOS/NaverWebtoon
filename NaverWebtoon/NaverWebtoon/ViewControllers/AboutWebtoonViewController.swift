@@ -19,8 +19,8 @@ class AboutWebtoonViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        requestTodayWebtoon()
+            self.requestTodayWebtoon()
+        
     }
     
     func requestTodayWebtoon() {
@@ -29,11 +29,18 @@ class AboutWebtoonViewController: UIViewController {
             switch result {
             case .success(let data):
                 Log.d(data)
-                ivMain.load(url: URL(string: data?.thumb ?? "")!)
-                lblTitle.text = data?.title ?? ""
-                lblAbout.text = data?.about ?? ""
-                lblGenre.text = data?.genre ?? ""
-                lblAge.text = data?.age ?? ""
+                if let data = data {
+                    if data.thumb != "" {
+                        self.ivMain.isHidden = false
+                        self.ivMain.load(url: URL(string: data.thumb ?? "")!)
+                    } else {
+                        self.ivMain.isHidden = true
+                    }
+                    self.lblTitle.text = data.title ?? ""
+                    self.lblAbout.text = data.about ?? ""
+                    self.lblGenre.text = data.genre ?? ""
+                    self.lblAge.text = data.age ?? ""
+                }
             case .failure(let error):
                 Log.e(error)
             }

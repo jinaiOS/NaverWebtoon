@@ -67,10 +67,14 @@ extension ViewController : UICollectionViewDelegate, UICollectionViewDataSource,
         }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let aboutWebtoonViewController = AboutWebtoonViewController()
-        aboutWebtoonViewController.modalPresentationStyle = .pageSheet
-        aboutWebtoonViewController.id = Int(todayWebtoonData?[indexPath.row].id ?? "")!
-           present(aboutWebtoonViewController, animated: true, completion: nil)
+        let storyboard: UIStoryboard = UIStoryboard(name: "AboutWebtoon", bundle: nil)
+        if let myViewController: AboutWebtoonViewController = storyboard.instantiateViewController(withIdentifier: "AboutWebtoonViewController") as? AboutWebtoonViewController {
+            // 뷰 컨트롤러를 구성 합니다.
+            myViewController.id = Int(todayWebtoonData?[indexPath.row].id ?? "")!
+            // 뷰 컨트롤러를 나타냅니다.
+            self.present(myViewController, animated: true, completion: nil)
+        }
+        
     }
     
 }
