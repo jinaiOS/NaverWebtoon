@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Vbk-bn-FNT">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="557"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="567"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UM7-Mo-4zE">
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="400"/>
@@ -76,6 +76,13 @@
                                                     <constraint firstItem="MHM-32-CX7" firstAttribute="top" secondItem="ot7-0I-rL5" secondAttribute="bottom" constant="10" id="z0w-Ka-3V1"/>
                                                 </constraints>
                                             </view>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="50" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="9Dh-AQ-oAN">
+                                                <rect key="frame" x="0.0" y="557" width="393" height="10"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" priority="750" constant="10" id="YAf-tT-ICF"/>
+                                                </constraints>
+                                            </tableView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
@@ -103,6 +110,7 @@
                         <outlet property="lblAge" destination="7jp-TT-Gc6" id="5nO-Bg-dcc"/>
                         <outlet property="lblGenre" destination="MHM-32-CX7" id="uHm-dB-DRd"/>
                         <outlet property="lblTitle" destination="hjb-34-wnW" id="Job-oD-2Wb"/>
+                        <outlet property="tvEpisode" destination="9Dh-AQ-oAN" id="IXi-bf-vOR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

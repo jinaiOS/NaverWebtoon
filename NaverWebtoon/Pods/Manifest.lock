@@ -1,20 +1,24 @@
 PODS:
   - Alamofire (5.7.1)
   - CryptoSwift (1.7.1)
+  - SnapKit (5.6.0)
 
 DEPENDENCIES:
   - Alamofire
   - CryptoSwift
+  - SnapKit
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - CryptoSwift
+    - SnapKit
 
 SPEC CHECKSUMS:
   Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
   CryptoSwift: d3d18dc357932f7e6d580689e065cf1f176007c1
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 
-PODFILE CHECKSUM: 22210ae268ab72502f018a1a2756a26e57429be5
+PODFILE CHECKSUM: 69aee66c527a42803e69425750bfd6f7d22ed8a6
 
 COCOAPODS: 1.12.1

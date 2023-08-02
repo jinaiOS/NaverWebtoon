@@ -9,6 +9,11 @@ import UIKit
 
 class EpisodeTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var ivMain: UIImageView!
+    @IBOutlet weak var lblTitle: UILabel!
+    @IBOutlet weak var lblRating: UILabel!
+    @IBOutlet weak var lblDate: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

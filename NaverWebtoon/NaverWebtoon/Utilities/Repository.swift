@@ -29,4 +29,9 @@ struct Repository: DefaultRepository {
         return APIService.shared.requestApi(requestURL: url, requestType: .post, modelType: WebtoonInfoModel.self, completion: completion)
     }
     
+    /// 웹툰 에피소드 정보 받기
+    func requestWebtoonEpisode(id: Int, completion: @escaping (Result<[WebtoonEpisodeModel]?,CommonAPIError>) -> Void) -> DataRequest? {
+        let url = APIConstants.comicsEpisodeURL(id: id)
+        return APIService.shared.requestApi(requestURL: url, requestType: .post, modelType: [WebtoonEpisodeModel].self, completion: completion)
+    }
 }

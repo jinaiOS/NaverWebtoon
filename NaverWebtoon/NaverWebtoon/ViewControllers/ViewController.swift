@@ -9,7 +9,7 @@ import UIKit
 import Alamofire
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var cvMain: UICollectionView!
     
     let cellName = "WebtoonCollectionViewCell"
@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         let nibName = UINib(nibName: cellName, bundle: nil)
         cvMain.register(nibName, forCellWithReuseIdentifier: cellName)
     }
-     
+    
     func requestTodayWebtoon() {
         Repository().requestTodayWebtoon {[weak self] result in
             guard let `self` = self else {return}
@@ -50,9 +50,9 @@ extension ViewController : UICollectionViewDelegate, UICollectionViewDataSource,
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellName, for: indexPath) as?
-                    WebtoonCollectionViewCell else {
-                        return UICollectionViewCell()
-                    }
+                WebtoonCollectionViewCell else {
+            return UICollectionViewCell()
+        }
         cell.ivWebtoon.load(url: URL(string: todayWebtoonData?[indexPath.row].thumb ?? "")!)
         cell.lblTitle.text = todayWebtoonData?[indexPath.row].title ?? ""
         
@@ -60,11 +60,11 @@ extension ViewController : UICollectionViewDelegate, UICollectionViewDataSource,
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-            
-            let width: CGFloat = (collectionView.frame.width / 2) - 0.5
-            
-            return CGSize(width: width, height: width)
-        }
+        
+        let width: CGFloat = (collectionView.frame.width / 2) - 0.5
+        
+        return CGSize(width: width, height: width)
+    }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let storyboard: UIStoryboard = UIStoryboard(name: "AboutWebtoon", bundle: nil)

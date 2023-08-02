@@ -34,8 +34,8 @@ struct APIConstants {
     }
     
     /// Returns the latest episodes for a comic by `:id`
-    static func lastestEpiURL() -> URL? {
-        let requestURLstr = (APIConstants.serverBaseURL + "/:id/episodes")
+    static func comicsEpisodeURL(id: Int) -> URL? {
+        let requestURLstr = (APIConstants.serverBaseURL + "/id=\(id)/episodes")
         guard let url = URL(string: requestURLstr) else { return nil }
         return url
     }

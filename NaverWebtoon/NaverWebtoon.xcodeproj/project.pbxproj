@@ -40,6 +40,7 @@
 		56083F032A79085000904A19 /* AboutWebtoon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56083F022A79085000904A19 /* AboutWebtoon.storyboard */; };
 		56083F062A79DE7600904A19 /* EpisodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083F042A79DE7600904A19 /* EpisodeTableViewCell.swift */; };
 		56083F072A79DE7600904A19 /* EpisodeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56083F052A79DE7600904A19 /* EpisodeTableViewCell.xib */; };
+		56083F0B2A79E45C00904A19 /* WebtoonEpisodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56083F0A2A79E45C00904A19 /* WebtoonEpisodeModel.swift */; };
 		5ED8940B93FF8DA3E8C91D0B /* Pods_NaverWebtoon_NaverWebtoonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E6E8545032F000DB7FA74 /* Pods_NaverWebtoon_NaverWebtoonUITests.framework */; };
 		7919BBFA636B56F5B4A7DAD2 /* Pods_NaverWebtoonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD243428B17574616EAF01EB /* Pods_NaverWebtoonTests.framework */; };
 /* End PBXBuildFile section */
@@ -103,6 +104,7 @@
 		56083F022A79085000904A19 /* AboutWebtoon.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AboutWebtoon.storyboard; sourceTree = "<group>"; };
 		56083F042A79DE7600904A19 /* EpisodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeTableViewCell.swift; sourceTree = "<group>"; };
 		56083F052A79DE7600904A19 /* EpisodeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeTableViewCell.xib; sourceTree = "<group>"; };
+		56083F0A2A79E45C00904A19 /* WebtoonEpisodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtoonEpisodeModel.swift; sourceTree = "<group>"; };
 		64D28AF9728E9D724DC7F4B2 /* Pods-NaverWebtoon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverWebtoon.release.xcconfig"; path = "Target Support Files/Pods-NaverWebtoon/Pods-NaverWebtoon.release.xcconfig"; sourceTree = "<group>"; };
 		65B273F45021A9F87A8CA81D /* Pods_NaverWebtoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaverWebtoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76796022532917EFCB500520 /* Pods-NaverWebtoon-NaverWebtoonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverWebtoon-NaverWebtoonUITests.release.xcconfig"; path = "Target Support Files/Pods-NaverWebtoon-NaverWebtoonUITests/Pods-NaverWebtoon-NaverWebtoonUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -240,6 +242,7 @@
 			children = (
 				56083EE92A77C8FF00904A19 /* TodayWebtoonModel.swift */,
 				56083EF32A78E27200904A19 /* WebtoonInfoModel.swift */,
+				56083F0A2A79E45C00904A19 /* WebtoonEpisodeModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -561,6 +564,7 @@
 				56083EDB2A77A43600904A19 /* NSDataAdditions.m in Sources */,
 				56083EE82A77C49500904A19 /* Log.swift in Sources */,
 				56083ECF2A77A18700904A19 /* Reachability.swift in Sources */,
+				56083F0B2A79E45C00904A19 /* WebtoonEpisodeModel.swift in Sources */,
 				56083EF22A78A51800904A19 /* Repository.swift in Sources */,
 				56083E962A73A9F400904A19 /* SceneDelegate.swift in Sources */,
 				56083F012A79082900904A19 /* AboutWebtoonViewController.swift in Sources */,
